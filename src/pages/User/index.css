@@ -1,0 +1,27 @@
+.repos {
+    max-width: 900px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.repos h2{
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.repos ul {
+    list-style: none;
+}
+
+.repos ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}

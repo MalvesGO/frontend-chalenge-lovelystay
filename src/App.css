@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 900px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+body {
+    background: #24292F;
+}
