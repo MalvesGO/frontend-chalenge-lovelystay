@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './index.css'
-import GihubLogo from '../../assets/Github.png'
+import GihubLogo from '../../assets/github.png'
 
 const Header = () => {
   return (
