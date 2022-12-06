@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { useNavigate } from "react-router-dom";
 import './index.css';
 import { RiGitRepositoryFill } from "react-icons/ri";
@@ -5,7 +6,7 @@ import { BiArrowBack } from "react-icons/bi";
 
 const UserDetails = ({ user }) => {
   let navigate = useNavigate();
-  return (
+  return (  
     <div className='userdetails'>
       <div className="user">
         <div className="image">
