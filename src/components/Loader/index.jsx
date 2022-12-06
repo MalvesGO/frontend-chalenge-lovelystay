@@ -1,13 +1,13 @@
 import React from 'react'
 
-import Logo from '../../assets/github.png';
+import { AiOutlineGithub } from "react-icons/ai";
 import './index.css';
 
 const Loading = () => {
     return (
         <div className="loading-screen">
             <div className="loading-animation">
-                <img src={Logo} className="logo-loading" alt="loading" />
+                <AiOutlineGithub fontSize={100} color="white" />
                 <div className="loading-bar"></div>
             </div>
         </div>
