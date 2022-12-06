@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Logo from '../../assets/Github.png';
+import Logo from '../../assets/github.png';
 import './index.css';
 
 const Loading = () => {
